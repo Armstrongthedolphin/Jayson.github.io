@@ -12,3 +12,15 @@
     background: url(polina.jpg) no-repeat;
     background-size: cover;
 }
+
+
+footer {
+    
+    position: absolute; 
+    bottom: 0%;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px 10px 10px; 
+   
+
+}

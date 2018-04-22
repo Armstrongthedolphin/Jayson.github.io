@@ -1,7 +1,9 @@
 body{
-    font-family:'Open Sans',sans-serif;
-    padding-top:54px;
-    color:#868e96
+   
+font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
+    padding-top:10em;
+    color:#c7cab9;
+    background-color: #252432; 
 }
 @media (min-width:992px){
     body{
@@ -12,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
     font-family:'Montserrat',sans-serif;
     font-weight:700;
     text-transform:uppercase;
-    color:#343a40
+    color:#c7cab9
 }
 h1{
     font-size:6rem;
@@ -72,15 +74,21 @@ h2{
 }
 section.resume-section{
     border-bottom:1px solid #dee2e6;
-    padding-top:5rem!important;
-    padding-bottom:5rem!important
+    padding-top: 20em;
+    padding-bottom:5em;
+    padding-right: 7em;
+    padding-left: 4em; 
 }
 section.resume-section .resume-item .resume-date{
     min-width:none
 }
 @media (min-width:768px){
     section.resume-section{
-        min-height:100vh
+        min-height:100vh;
+    padding-top: 5em;
+    padding-bottom:4em;
+    padding-right: 4em;
+    padding-left: 4em; 
     }
     section.resume-section .resume-item .resume-date{
         min-width:18rem
