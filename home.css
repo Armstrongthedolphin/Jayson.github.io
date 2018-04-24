@@ -75,7 +75,7 @@ nav{
     position: static; 
     left:20%;
 right:30%;
-bottom:20%;
+bottom:40%;
 top:50%;
     
     
@@ -106,8 +106,8 @@ top:50%;
     display: inline-block;
     font-size: 16px;
     position:static;
-    left:100%;
-right:20%;
+    left:20%;
+right:80%;
 bottom:20%;
 top:50%;
 }
