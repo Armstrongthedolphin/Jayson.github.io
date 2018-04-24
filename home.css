@@ -90,7 +90,7 @@ svg > rect {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    position: relative; 
+    position: static; 
     left:20%;
 right:30%;
 bottom:20%;
@@ -108,7 +108,7 @@ top:50%;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    position:relative;
+    position:static;
 left:15%;
 right:20%;
 bottom:20%;
@@ -123,9 +123,10 @@ top:50%;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    left:60%;
+    position:static;
+    left:100%;
 right:20%;
-bottom:5%;
+bottom:20%;
 top:50%;
 }
 
