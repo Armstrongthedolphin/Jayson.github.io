@@ -54,7 +54,7 @@ nav ul li{
     padding-bottom: 1.5%;
 }
 nav{
-    position: fixed;  
+  /*  position: fixed;  */
     width: 20%;
     display:grid;
     grid-template-rows: 12fr 2fr;
