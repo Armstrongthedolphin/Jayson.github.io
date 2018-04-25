@@ -149,3 +149,8 @@ nav{
 .social .fa {
   margin: 0 3px;
 }
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
