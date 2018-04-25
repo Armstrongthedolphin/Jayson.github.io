@@ -154,3 +154,18 @@ nav{
     background-color: #4CAF50;
     color: white;
 }
+
+
+
+
+.navstyle {
+    border: 1px solid #c7cab9;
+    width: 50%; 
+    margin-left: 15px;
+    
+}
+
+a {
+    
+    color: #c7cab9
+}
