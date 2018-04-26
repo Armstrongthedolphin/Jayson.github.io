@@ -21,7 +21,7 @@ footer {
 }
 
 .css-selector {
-  font-family: 'Londrina Shadow', serif;
+  font-family: 'Montserrat', serif;
 }
 
 nav .title{
@@ -50,16 +50,12 @@ nav{
     nav{
         display:none;
     }
-    .bio{
-        position:fixed;
-        width:100%;
-        left:10%;
-    }
+  
     .buttondiv div{
         clear:left;
         width:200%;
         background-color: none;
-        color:#F2690E;
+        color:#252432;
         
     } 
     .buttondiv h1:hover{
@@ -69,10 +65,10 @@ nav{
 @media screen and (min-width:650px){
     .buttondiv div{
         background-color: none;
-        color:#F2690E;
+        color:#252432;
         border-style: solid;
         border-width: 2px;
-        border-color:#F2690E;
+        border-color:#252432;
     }
     .buttondiv h1:hover{
         color:#94A6BF;
@@ -99,17 +95,18 @@ svg > rect {
 
 .bio{
    position: fixed;
-    top: 16%;
-    right: 17%;
+    top: 30%;
+    right: 9%;
     width: 60%;
 }
 .bio{
     color:rgba(60, 65, 62, 0.8);
+    
 }
 .buttondiv{
     position: fixed;
     top: 60%;
-    right: 0%;
+    right: 6.5%;
     white-space: nowrap;
     width: 80%;
     height: 40%;
@@ -143,7 +140,9 @@ svg > rect {
 }
 
 
-
+h2 {
+    color: #252432;
+}
 
 
 

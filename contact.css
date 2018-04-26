@@ -9,9 +9,10 @@ section {
     right:3%;
 }
 
-footer {
- 
-
+h2 {
+    
+    color: #C7CAB9; 
+    
 }
 
 .leftnav .title{
@@ -35,7 +36,14 @@ footer {
     margin-bottom: 0%;
     color: #C7CAB9;
     list-style-type: none;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: #C7CAB9;
+    width: 30%;
+    margin-left: 4%;   
+   
 }
+
 .leftnav .buttonlist div{
     padding-bottom: 1.5%;
     padding-left: 6%;
@@ -72,7 +80,7 @@ footer {
     .formcontent{
         width: 95%;
         position: relative;
-        margin: 0 auto ;   
+        margin: 0 0 0 0 ;   
     }
     section{
         width:100%;
@@ -91,11 +99,24 @@ body{
 
 
 .formpadding {    
-    margin-top: 20%;
+    margin-top: 10%;
+
 }
 
-h2 {
+
+
+.btn-danger {
     
-     font-family: 'montserrat';font-size: 22px; color: #c7cab9;
+    background-color: #252432;
+    border-color: #c7cab9;
+}
+
+.btn-danger a:hover!important{
+    background-color: #94A6BF;
+    text-decoration: none;
+}
+
+div {
+    margin: 1px 1px;
 }
 
