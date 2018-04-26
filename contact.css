@@ -10,9 +10,7 @@ section {
 }
 
 h2 {
-    
-    color: #C7CAB9; 
-    
+    color: #C7CAB9;   
 }
 
 .leftnav .title{
@@ -21,7 +19,6 @@ h2 {
     margin-top:20%;
     margin-left: -60%;
     font-family: 'Londrina Shadow', cursive;
-/*    font-family: 'Monoton', cursive;*/
     font-size: 6em;
     overflow: auto;
     color:#F2690E;
@@ -87,10 +84,8 @@ h2 {
     }
     section{
         width:100%;
-    }
-    
+    }    
 }
-
 
 a { 
     color: #c7cab9
@@ -100,13 +95,9 @@ body{
     background-color: #252432;
 }
 
-
 .formpadding {    
     margin-top: 10%;
-
 }
-
-
 
 .btn-danger {
     

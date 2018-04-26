@@ -10,7 +10,6 @@ body{
     margin-top:20%;
     margin-left: -60%;
     font-family: 'Londrina Shadow', cursive;
-/*    font-family: 'Monoton', cursive;*/
     font-size: 6em;
     overflow: auto;
     color:#F2690E;
@@ -170,7 +169,6 @@ body{
 }
 
 .active {
-   /* background-color: #4CAF50; */
     color: white;
 }
 

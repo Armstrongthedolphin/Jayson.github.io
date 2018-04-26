@@ -4,7 +4,6 @@
     margin-top:20%;
     margin-left: -60%;
     font-family: 'Londrina Shadow', cursive;
-/*    font-family: 'Monoton', cursive;*/
     font-size: 6em;
     overflow: auto;
     color:#F2690E;
@@ -62,12 +61,6 @@
     
 }
 
-
-
-
-
-
-
 body{
    
 font-family: 'Open Sans'!important, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -100,15 +93,6 @@ h2{
     font-size:1.35rem
 }
 
-
-section.resume-section{
-  /*  border-bottom:1px solid #dee2e6;
-    padding-top: 10em;
-    padding-bottom:5em;
-    padding-right: 7em;
-    padding-left: 1em; 
-    margin-right: 5em; */
-}
 section.resume-section .resume-item .resume-date{
     min-width:none
 }
@@ -119,9 +103,6 @@ section.resume-section .resume-item .resume-date{
     padding-bottom:4em;
     padding-right: 4em;
     padding-left: 4em; 
-    }
-    section.resume-section .resume-item .resume-date{
-       /* min-width:18rem */
     }
 }
 @media (min-width:992px){
