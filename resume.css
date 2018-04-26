@@ -48,6 +48,9 @@
 .navtop{
     display: none;
 }
+.bg-custom{
+    background-color: #C7CAB9;
+}
 
 @media screen and (max-width:992px){
     .leftnav{
