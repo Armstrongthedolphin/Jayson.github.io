@@ -108,7 +108,7 @@ svg > rect {
 }
 .buttondiv{
     position: fixed;
-    top: 60s%;
+    top: 60%;
     right: 0%;
     white-space: nowrap;
     width: 80%;
