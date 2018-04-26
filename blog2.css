@@ -27,6 +27,9 @@ body{
     padding-bottom: 1.5%;
     padding-left: 6%;
 }
+.leftnav .buttonlist div a:hover{
+    color: #94A6BF;
+}
 .leftnav{
     position: fixed;  
     width: 20%;
@@ -164,7 +167,6 @@ body{
 }
 
 
-a {
-    
+a {    
     color: #c7cab9
 }

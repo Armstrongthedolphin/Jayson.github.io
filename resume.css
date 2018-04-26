@@ -1,10 +1,8 @@
-nav .title{
+.leftnav .title{
     display: block;
     transform: rotate(270deg);
     margin-top:20%;
     margin-left: -60%;
-    padding: 1%;
-/*    margin-right: 0;*/
     font-family: 'Londrina Shadow', cursive;
 /*    font-family: 'Monoton', cursive;*/
     font-size: 6em;
@@ -12,35 +10,46 @@ nav .title{
     color:#F2690E;
     white-space: nowrap;
     grid-area: title;
-    background-color: yellow;
 }
-nav .menu{
+.leftnav a:hover{
+    text-decoration: none;
+}
+.leftnav .buttonlist{
     display: block;
     margin-bottom: 0%;
     color: #C7CAB9;
-    grid-area: menu;
     list-style-type: none;
 }
-nav .menu li{
+.leftnav .buttonlist div{
     padding-bottom: 1.5%;
+    padding-left: 6%;
 }
-nav .pages{
-    grid-area: pages;
-    background-color: palevioletred;
+.leftnav .buttonlist div a{
+    color: #C7CAB9;
 }
-nav .pages i{
-    background-color:orange !important;
+.leftnav .buttonlist div a:hover{
+    color: #94A6BF;
 }
-nav{
-    position: fixed; 
-    left:0%;
+.leftnav{
+    position: fixed;
+    left: 0%;
     width: 20%;
     display:grid;
     grid-template-rows: 12fr 2fr;
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: "title pages" "menu pages";
+    grid-template-areas: "title" "ul";
+}
+.navtop{
+    display: none;
+}
+
+@media screen and (max-width:992px){
+    .leftnav{
+        display: none;
+    }
+    .navtop{
+        display:flex;
+    }
     
-    background-color: aqua;
 }
 .container-fluid{
    

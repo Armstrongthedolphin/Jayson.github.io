@@ -1,10 +1,12 @@
 section {
+  width: 80%;
   max-width: 1170px;
   padding: 0;
-  margin: auto auto;
-  /*margin-left: 450px; */
-   
- 
+  margin: auto auto; 
+}
+.formcontent{
+    position:fixed;
+    right:3%;
 }
 
 footer {
@@ -18,12 +20,11 @@ footer {
 
 }
 
-
-.navstyle .title{
+.leftnav .title{
     display: block;
     transform: rotate(270deg);
-    margin-top:-50%;
-    margin-left: -200%;
+    margin-top:20%;
+    margin-left: -60%;
     font-family: 'Londrina Shadow', cursive;
 /*    font-family: 'Monoton', cursive;*/
     font-size: 6em;
@@ -32,34 +33,61 @@ footer {
     white-space: nowrap;
     grid-area: title;
 }
-.navstyle ul{
+.leftnav a:hover{
+    text-decoration: none;
+}
+.leftnav .buttonlist{
     display: block;
     margin-bottom: 0%;
     color: #C7CAB9;
-    grid-area: ul;
     list-style-type: none;
 }
-.navstyle ul li{
+.leftnav .buttonlist div{
     padding-bottom: 1.5%;
+    padding-left: 6%;
 }
-.navstyle{
+.leftnav .buttonlist div a:hover{
+    color: #94A6BF;
+    text-decoration: none;
+}
+.leftnav{
     position: fixed;  
     width: 20%;
     display:grid;
     grid-template-rows: 12fr 2fr;
     grid-template-areas: "title" "ul";
 }
+.navtop{
+    display: none;
+}
 
-
-#navstyle1 {
-    border: 1px solid #c7cab9;
-    width: 50%; 
-    margin-left: -200px;
+@media screen and (max-width:800px){
+    .leftnav{
+        display: none;
+    }
+    .container {
+    width: 100%;
+    position: absolute;
+    right: 1%;
+    left: 1%;
+    top: 10%;
+    }
+    .navtop{
+        display:flex;
+    }
+    .formcontent{
+        width: 95%;
+        position: relative;
+        margin: 0 auto ;   
+    }
+    section{
+        width:100%;
+    }
     
 }
 
-a {
-    
+
+a { 
     color: #c7cab9
 }
 
@@ -68,11 +96,8 @@ body{
 }
 
 
-.formpadding {
-  
-    
-    margin-top: 100px;
-    margin-left: 
+.formpadding {    
+    margin-top: 20%;
 }
 
 h2 {
