@@ -99,9 +99,9 @@ svg > rect {
 
 .bio{
    position: fixed;
-    top: 20%;
-    right: 1%;
-    width: 76%;
+    top: 16%;
+    right: 17%;
+    width: 60%;
 }
 .bio{
     color:rgba(60, 65, 62, 0.8);
@@ -141,9 +141,6 @@ svg > rect {
 #button3{
     grid-area:b3;
 }
-
-
-
 
 
 
