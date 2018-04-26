@@ -12,19 +12,13 @@
     background: url(polina.jpg) no-repeat;
     background-size: cover;
 }
-
-
 footer {
-    
     position: absolute; 
     bottom: 0%;
     align-items: center;
     text-align: center;
     margin: 10px 10px 10px 10px; 
-   
-
 }
-
 
 .css-selector {
   font-family: 'Londrina Shadow', serif;
@@ -45,16 +39,6 @@ nav .title{
 nav a:hover{
     text-decoration: none;
 }
-nav ul{
-    display: block;
-    margin-bottom: 0%;
-    color: #C7CAB9;
-    grid-area: ul;
-    list-style-type: none;
-}
-nav ul li{
-    padding-bottom: 1.5%;
-}
 nav{
   /*  position: fixed;  */
     width: 20%;
@@ -62,14 +46,40 @@ nav{
     grid-template-rows: 12fr 2fr;
     grid-template-areas: "title" "ul";
 }
+@media screen and (max-width:650px){
+    nav{
+        display:none;
+    }
+    .bio{
+        position:fixed;
+        width:100%;
+        left:10%;
+    }
+    .buttondiv div{
+        clear:left;
+        width:200%;
+        background-color: none;
+        color:#F2690E;
+    } 
+    .buttondiv h1:hover{
+        color:#94A6BF;
+    }
+}
+@media screen and (min-width:650px){
+    .buttondiv div{
+        background-color: rgba(60, 65, 62, 0.5);
+        color:rgba(255, 255, 255, 0.8);
+    }
+}
+
+
+
+
 
 svg {
     width: 100%;
     height: 100%;
     position:absolute;
-}
-svg text {
-    text-anchor: middle;
 }
 svg mask rect {
     fill: rgba(199, 202, 185, 0.8);
@@ -80,49 +90,65 @@ svg > rect {
     mask: url(#mask);
 }
 
-
+.bio{
+   position: fixed;
+    top: 20%;
+    right: 1%;
+    width: 76%;
+}
+.bio{
+    color:rgba(60, 65, 62, 0.8);
+}
 .buttondiv{
     position: fixed;
     top: 50%;
-    left: 15%;
+    right: 0%;
     white-space: nowrap;
+    width: 80%;
+    height: 40%;
 }
-
-.button1 {
-    background-color: rgba(60, 65, 62, 0.8);
+.buttondiv div{
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 5em;
-    padding: 8%;
+    
+    float:left;
+    width:30%;
+    margin-left:1%;
+    margin-right: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
-.buttondiv a{
-    color:#E38545;
+.buttondiv ul{
+    list-style:none;
 }
-.button2 {
-    background-color: rgba(60, 65, 62, 0.8); 
-    border: none;
-    color: white;
-    text-align: center;
+.buttondiv a:hover{
     text-decoration: none;
-    display: inline-block;
-
-    font-size: 5em;
-
-    padding: 8%;
-
 }
-.button3 {
-    background-color: rgba(60, 65, 62, 0.8); 
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 5em;
-
-    padding: 8%;
-
+#button1{
+    grid-area:b1;
 }
+#button2{
+    grid-area:b2;
+}
+#button3{
+    grid-area:b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
